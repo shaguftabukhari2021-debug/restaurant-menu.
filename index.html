@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delish Diner - Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="images/logo.jpg" alt="Delish Diner Logo" class="logo">
+      <h1>Delish Diner</h1>
+    </div>
+    <div class="cart-container">
+      <button id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</button>
+    </div>
+  </header>
+
+  <main>
+<!-- Special of the Day -->
+<section class="special">
+  <h2>⭐ Special of the Day</h2>
+  <img src="images/grilled_salmon.jpg" alt="Grilled Salmon with Lemon Butter" class="special-img">
+  <p><strong>Grilled Salmon with Lemon Butter</strong></p>
+  <p>Served with roasted vegetables and garlic bread.</p>
+  <span class="price">₹699</span>
+  <button class="add-to-cart" data-name="Grilled Salmon" data-price="699">Add to Cart</button>
+</section>
+
+
+    <!-- Starters -->
+    <section>
+      <h2>Starters</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="images/bruschetta.jpg" alt="Bruschetta">
+          <h3>Bruschetta</h3>
+          <p>Grilled bread with tomato, garlic & olive oil.</p>
+          <span class="price">₹249</span>
+          <button class="add-to-cart" data-name="Bruschetta" data-price="249">Add to Cart</button>
+        </div>
+        <div class="menu-card">
+          <img src="images/soup.jpg" alt="Tomato Soup">
+          <h3>Tomato Soup</h3>
+          <p>Creamy tomato soup with crunchy croutons.</p>
+          <span class="price">₹199</span>
+          <button class="add-to-cart" data-name="Tomato Soup" data-price="199">Add to Cart</button>
+        </div>
+        <div class="menu-card">
+          <img src="images/salad.jpg" alt="Greek Salad">
+          <h3>Greek Salad</h3>
+          <p>Fresh cucumbers, tomatoes, feta cheese, and olives.</p>
+          <span class="price">₹349</span>
+          <button class="add-to-cart" data-name="Greek Salad" data-price="349">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Course -->
+    <section>
+      <h2>Main Course</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="images/pasta.jpg" alt="Spaghetti Carbonara">
+          <h3>Spaghetti Carbonara</h3>
+          <p>Classic Italian pasta with creamy sauce.</p>
+          <span class="price">₹499</span>
+          <button class="add-to-cart" data-name="Spaghetti Carbonara" data-price="499">Add to Cart</button>
+        </div>
+        <div class="menu-card">
+          <img src="images/pizza.jpg" alt="Margherita Pizza">
+          <h3>Margherita Pizza</h3>
+          <p>Stone-baked pizza with mozzarella & basil.</p>
+          <span class="price">₹399</span>
+          <button class="add-to-cart" data-name="Margherita Pizza" data-price="399">Add to Cart</button>
+        </div>
+        <div class="menu-card">
+          <img src="images/burger.jpg" alt="Cheese Burger">
+          <h3>Cheese Burger</h3>
+          <p>Juicy beef patty with cheese, lettuce, and tomato.</p>
+          <span class="price">₹449</span>
+          <button class="add-to-cart" data-name="Cheese Burger" data-price="449">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Desserts -->
+    <section>
+      <h2>Desserts</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="images/cake.jpg" alt="Chocolate Lava Cake">
+          <h3>Lava Cake</h3>
+          <p>Warm cake with molten chocolate center.</p>
+          <span class="price">₹279</span>
+          <button class="add-to-cart" data-name="Lava Cake" data-price="279">Add to Cart</button>
+        </div>
+        <div class="menu-card">
+          <img src="images/icecream.jpg" alt="Vanilla Ice Cream">
+          <h3>Vanilla Ice Cream</h3>
+          <p>Classic vanilla scoops with chocolate syrup.</p>
+          <span class="price">₹159</span>
+          <button class="add-to-cart" data-name="Vanilla Ice Cream" data-price="159">Add to Cart</button>
+        </div>
+        <div class="menu-card">
+          <img src="images/pie.jpg" alt="Apple Pie">
+          <h3>Apple Pie</h3>
+          <p>Golden crust with cinnamon-spiced apple filling.</p>
+          <span class="price">₹199</span>
+          <button class="add-to-cart" data-name="Apple Pie" data-price="199">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <p><strong>Total: ₹<span id="cart-total">0</span></strong></p>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Delish Diner. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
