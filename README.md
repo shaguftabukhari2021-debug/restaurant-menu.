@@ -1,40 +1,89 @@
+# 🍴 Delish Diner – Interactive Restaurant Menu
 
-## 💻 How to Run
+An interactive, responsive restaurant menu built with **HTML5, CSS3, and JavaScript**.
+This project was completed as part of the MOOC course assignment.
 
-1. Make sure all files (`index.html`, `style.css`, `script.js`, `images/`) are in the same folder.  
-2. Open `index.html` in a web browser (Chrome, Firefox, Edge, etc.).  
-3. Click **Add to Cart** buttons to test the cart functionality.  
+---
 
-## 🌟 Features
+## ✨ Features
 
-- Modern, visually appealing UI with gradients and hover effects.
-- Responsive design for small and large screens.
-- Cart modal displays added items and total price.
-- Accessible images with proper `alt` attributes.
-- Semantic HTML (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`).
+* ✅ Semantic **HTML5 structure** (header, nav, main, section, footer)
+* ✅ **Responsive design** with CSS Grid & Flexbox
+* ✅ Menu items with **images, names, descriptions, and prices**
+* ✅ **Special of the Day** section
+* ✅ **Add to Cart** functionality with popup modal
+* ✅ Accessible images with `alt` text
+* ✅ Modern, clean UI with hover effects
 
-## 🔧 Technologies Used
+---
 
-- **HTML5** – Structure and semantic elements  
-- **CSS3** – Styling, grid layout, flexbox, gradients, responsiveness  
-- **JavaScript** – Interactivity, add to cart functionality  
-- **Images** – Locally saved in `images/` folder  
+## 📂 Project Structure
+
+```
+restaurant-menu/
+│── index.html
+│── style.css
+│── script.js
+│── images/
+│── screenshots/
+│── README.md
+```
+
+---
+
+## 🚀 How to Run
+
+1. Download or clone this repository.
+
+   ```bash
+   git clone <your-repo-link>
+   ```
+2. Open `index.html` in any modern browser (Chrome, Edge, Firefox).
+3. Explore the interactive restaurant menu!
+
+---
 
 ## 📸 Screenshots
 
-*(Optional: Add screenshots of your menu page here)*
+### 🏠 Homepage
 
-## 🔗 GitHub Repository
+![Homepage](screenshots/homepage.png)
 
-[https://github.com/yourusername/restaurant-menu](https://github.com/yourusername/restaurant-menu)
+### 🛒 Cart Popup
 
-## 🛠 Future Enhancements
+![Cart](screenshots/cart-popup.png)
 
-- Connect with a backend for real orders.  
-- Add quantity selection for each item.  
-- Include animations for cart and special offers.  
-- Dark mode / theme switcher.  
+### 📱 Responsive View (Mobile)
+
+![Responsive](screenshots/responsive-view.png)
 
 ---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3 (Flexbox, Grid, Media Queries)
+* JavaScript (DOM Manipulation)
+* Google Fonts
+
+---
+
+## 📌 Future Enhancements
+
+* 🔹 User authentication & login system
+* 🔹 Online order placement
+* 🔹 Backend integration with database
+* 🔹 Dark mode
+
+---
+
+## 👩‍💻 Author
+
+**Shagufta Bukhari**
+MOOC Course Project | 2025
+
+---
+
+
 
 
