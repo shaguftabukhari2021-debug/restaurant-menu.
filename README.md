@@ -42,23 +42,6 @@ restaurant-menu/
 3. Explore the interactive restaurant menu!
 
 ---
-
-## 📸 Screenshots
-
-### 🏠 Homepage
-
-![Homepage](screenshots/homepage.png)
-
-### 🛒 Cart Popup
-
-![Cart](screenshots/cart-popup.png)
-
-### 📱 Responsive View (Mobile)
-
-![Responsive](screenshots/responsive-view.png)
-
----
-
 ## 🛠️ Technologies Used
 
 * HTML5
@@ -83,6 +66,7 @@ restaurant-menu/
 MOOC Course Project | 2025
 
 ---
+
 
 
 
